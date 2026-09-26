@@ -1,0 +1,20 @@
+# Бинарники сборки (в корне репозитория)
+/def
+/bin/
+
+# Результаты сканов (могут содержать данные о целях — не коммитить)
+/report.html
+/report.json
+/scan.log.jsonl
+*.report.json
+*.report.html
+*.log.jsonl
+
+# Реальные scope-конфиги с целями клиентов — коммитим только пример
+configs/scope.*.json
+!configs/scope.example.json
+
+# Внутренние документы
+/STATUS.md
+/PLAN.md
+/TZ.md

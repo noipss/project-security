@@ -1,0 +1,16 @@
+{
+  "project": "example-project",
+  "profile": "safe",
+  "targets": [
+    "example.com",
+    "127.0.0.1"
+  ],
+  "allowed_urls": [
+    "https://example.com/"
+  ],
+  "limits": {
+    "rps": 5,
+    "max_workers": 4
+  },
+  "authorized": false
+}
